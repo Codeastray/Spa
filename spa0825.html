@@ -1,0 +1,674 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/allmystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>世界外語</title>
+</head>
+<style>
+    .carousel-caption {
+        background-color: rgba(100, 100, 100, .3);
+    }
+
+    .text {
+        background-color: rgba(100, 100, 100, .3);
+    }
+    @font-face {
+			font-family: 'design';
+			src: url('Fonts/design.ttf') format("opentype");
+
+		}
+   
+</style>
+
+<body class="bg-light">
+    <section class="bg-secondary">
+        <div class="container text-right text-white">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+
+        </div>
+    </section>
+
+    <section class="bg-dark">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">
+                    <i class="fa-solid fa-cake-candles text-danger"></i>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">關於我們 <span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                aria-expanded="false">
+                                服務類別
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">生活英語</a>
+                                <a class="dropdown-item" href="#">多益證照</a>
+                                <a class="dropdown-item" href="#">高分托福</a>
+                                <a class="dropdown-item" href="#">日文檢定</a>
+                                <a class="dropdown-item" href="#">韓語檢定</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">各種歐洲語系課程</a>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <a href="" class="btn btn-outline-primary mr-2" data-toggle="modal"
+                            data-target="#loginModal">登入</a>
+                        <a href="" class="btn btn-outline-primary" data-toggle="modal"
+                            data-target="#registerModal">註冊</a>
+                    </form>
+                </div>
+            </nav>
+        </div>
+
+    </section>
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content">
+                <div class="modal-header bg-success">
+                    <h5 class="modal-title text-white font-weight-bold" id="exampleModalLabel">會員登入</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="">帳號</label>
+                        <input type="text" name="username" class="form-control" id="username">
+                    </div>
+                    <div class="form-group">
+                        <label for="">密碼</label>
+                        <input type="password" class="form-control" name="password" id="password">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#registerModal" class="mr-auto" data-toggle="modal" data-dismiss="modal">還沒有帳號，去註冊</a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary" id="login_btn">確認</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header bg-warning">
+                    <h5 class="modal-title text-white font-weight-bold" id="exampleModalLabel">會員註冊</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-6">
+                            <h1>會員守則</h1>
+                            <p>1.演出大門實業下載下午預期我很頻道記住見面這段品牌大連資本，行動點點心情理解，做出也要，相當深深，英。</p>
+                            <p>2.演出大門實業下載下午預期我很頻道記住見面這段品牌大連資本，行動點點心情理解，做出也要，相當深深，英。</p>
+                            <p>3.演出大門實業下載下午預期我很頻道記住見面這段品牌大連資本，行動點點心情理解，做出也要，相當深深，英。</p>
+                            <p>1.演出大門實業下載下午預期我很頻道記住見面這段品牌大連資本，行動點點心情理解，做出也要，相當深深，英。</p>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    我同意條款
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="">帳號</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="">密碼</label>
+                                <input type="password" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">確認密碼</label>
+                                <input type="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="">email</label>
+                                <input type="email" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <a href="#loginModal" class="mr-auto" data-toggle="modal" data-dismiss="modal">已經有帳號, 登入去!</a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary">確認</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section>
+        <div id="carouselExampleCaptions" class="carousel slide wow animate__pulse" data-wow-duration="1s"  data-ride="carousel" >
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <!-- active先跑 -->
+                <div class="carousel-item bg-cover active"
+                    style=" background-image:url(/spa/images/Eng_Am.avif); height: 360px;">
+
+                    <div class="carousel-caption d-none d-md-block p-3">
+                        <h5>Home Party</h5>
+                        <p>發佈日期義務指數聰明幾次電子買賣，方面每年男子緊張，通過可是怎麼辦人才屬於，升級不好意思策略突然我也，接收的說等等天地某種環境改變昨日老師，都要興趣，房價你怎麼真實性孤獨記得效益方法歌詞那就，走進西。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item bg-cover"
+                    style=" background-image:url(/spa/images/Eng.png); height: 360px;">
+
+                    <div class="carousel-caption d-none d-md-block p-3">
+                        <h5>生日派對</h5>
+                        <p>發佈日期義務指數聰明幾次電子買賣，方面每年男子緊張，通過可是怎麼辦人才屬於，升級不好意思策略突然我也，接收的說等等天地某種環境改變昨日老師，都要興趣，房價你怎麼真實性孤獨記得效益方法歌詞那就，走進西。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item bg-cover"
+                    style="background-color: rgb(246, 249, 175); background-image:url(/spa/images/multi_lang.png); height: 360px;">
+
+                    <div class="carousel-caption d-none d-md-block p-3 ">
+                        <h5>歌唱派對</h5>
+                        <p>發佈日期義務指數聰明幾次電子買賣，方面每年男子緊張，通過可是怎麼辦人才屬於，升級不好意思策略突然我也，接收的說等等天地某種環境改變昨日老師，都要興趣，房價你怎麼真實性孤獨記得效益方法歌詞那就，走進西。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item bg-cover"
+                    style=" background-color: rgb(202, 231, 243); background-image:url(/spa/images/dic.avif); height: 360px;">
+
+                    <div class="carousel-caption d-none d-md-block p-3">
+                        <h5>英文課程</h5>
+                        <p>發佈日期義務指數聰明幾次電子買賣，方面每年男子緊張，通過可是怎麼辦人才屬於，升級不好意思策略突然我也，接收的說等等天地某種環境改變昨日老師，都要興趣，房價你怎麼真實性孤獨記得效益方法歌詞那就，走進西。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item bg-cover"
+                    style="background-image:url(/spa/images/apple.avif); height: 360px;">
+
+                    <div class="carousel-caption d-none d-md-block p-3">
+                        <h5>日語課程</h5>
+                        <p>發佈日期義務指數聰明幾次電子買賣，方面每年男子緊張，通過可是怎麼辦人才屬於，升級不好意思策略突然我也，接收的說等等天地某種環境改變昨日老師，都要興趣，房價你怎麼真實性孤獨記得效益方法歌詞那就，走進西。
+                        </p>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions"
+                data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions"
+                data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-2 mt-3 ml-3 wow animate__tada" data-wow-duration="3s">
+                    <div class="d-flex">
+                        <div>
+                            <img src="/spa/images/man_Q.png" width="60%" alt=""> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 mt-5 pt-3 wow animate__fadeInRight " data-wow-duration="2s" >
+                    <div>
+                        <h1 style="font-family: design;">唉，現在想想，如果能多一個語言能力，除了工作。也許還其他機會</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row flex-row-reverse">
+                <div class="col-md-2 mt-3 ml-3 mb-2 wow animate__flash " data-wow-duration="2s">
+                    <div class="d-flex">
+                        <div>
+                            <img src="/spa/images/woman_Q.png" width="80%" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 mt-5 pt-3 wow animate__fadeInLeft " data-wow-duration="2s"  >
+                    <div>
+                        <h1  style="font-family: design;"> 你在煩惱時什麼呢? 有什麼困難呢? 講出來聽聽啊</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-2 mt-3 ml-3 wow animate__heartBeat" data-wow-duration="1s">
+                    <div class="d-flex">
+                        <div>
+                            <img src="/spa/images//Man_nothappy.png" width="60%" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 mt-5 pt-3  wow animate__fadeInRight" data-wow-duration="2s" >
+                    <div>
+                        <h1  style="font-family: design;">今天公司來了一個外國同事，結果我的英文卻跟他聊不上5句話，早知道以前應該好好學外語</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row flex-row-reverse">
+                <div class="col-md-2 mt-3 ml-3 mb-2  wow animate__jackInTheBox" data-wow-duration="2s">
+                    <div class="d-flex">
+                        <div>
+                            <img src="/spa/images/woman_teach.png" width="83%" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 mt-5 pt-3  wow animate__fadeInLeft " data-wow-duration="2s" >
+                    <div>
+                        <h3  style="font-family: design;"> 原來如此，我覺得你可以去上世界外語課程，老師個個有師資保證，我的多益證照就是去那裏上課才考到的。
+                            阿公! 我記得阿公你也是去了世界外語，才考到多益900分，對不對?
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-2 mt-3 ml-3 wow animate__bounceIn" data-wow-duration="3s">
+                    <div class="d-flex">
+                        <div>
+                            <img src="/spa/images/opa2.png" width="65%" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 mt-5 pt-3  wow animate__rubberBand" data-wow-duration="1s" >
+                    <div>
+                        <h1  style="font-family: design;">對啊 想當初，我連ABC都唸不好....</h1>
+                    </div> 
+                </div>
+            </div>
+            <div class="row flex-row-reverse">
+                <div class="col-md-2 mt-3 ml-3 mb-2 wow animate__zoomInDown" data-wow-duration="0.3s">
+                    <div class="d-flex">
+                        <div>
+                            <img src="/spa/images/woman_teach.png" width="80%" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-md-9 mt-5 pt-3  display-4  wow animate__heartBeat" data-wow-duration="1s">
+                    <div>
+                        <h3 class="display-4"  style="font-family: design;">我阿公可以，你也一定可以的!!!!
+                        </h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-2 mt-3 ml-3 wow animate__tada" data-wow-duration="2s">
+                    <div class="d-flex">
+                        <div>
+                            <img src="/spa/images/happyMan.png" width="80%" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 mt-5 pt-3  wow animate__fadeInRight " data-wow-duration="2s">
+                    <div>
+                        <h1  style="font-family: design;">太好了，我的英文有救了，我要趕快來報名課程!!!</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row flex-row-reverse">
+                <div class="col-md-2 mt-3 ml-3 mb-2 wow  animate__zoomInRight" data-wow-duration="2s">
+                    <div class="d-flex">
+                        <div>
+                            <img src="/spa/images/E_teacher.png" width="80%" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 mt-5 pt-3  display-4 wow animate__fadeInLeft" data-wow-duration="2s">
+                    <div>
+                        <h1  style="font-family: design;">來世界外語，擁有最好的學習資源，帶領你走向世界。 
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center py-4">
+
+                    <i class="fa-solid fa-comments fa-8x text-warning mb-3"></i>
+                    <h2 class="text-white">Just Talk</h2>
+                    <p>最重要檢查女子一方面車輛四個插入是否一種，一本歌手東西關於內地人間公共民間不見皇帝尤其平時監控好像。</p>
+                </div>
+                <div class="col-md-4 text-center py-4">
+
+                    <i class="fa-solid fa-puzzle-piece fa-8x text-warning mb-3"></i>
+                    <h2 class="text-white">Learn Via Games</h2>
+                    <p>最重要檢查女子一方面車輛四個插入是否一種，一本歌手東西關於內地人間公共民間不見皇帝尤其平時監控好像。</p>
+                </div>
+                <div class="col-md-4 text-center py-4">
+                    <i class="fa-solid fa-users fa-8x text-warning mb-3"></i>
+                    <h2 class="text-white">Scial Connection</h2>
+                    <p>最重要檢查女子一方面車輛四個插入是否一種，一本歌手東西關於內地人間公共民間不見皇帝尤其平時監控好像。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="position: relative;">
+        <div class="row">
+            <div class="col-md-5 bg-cover"
+                style="position: absolute; background-image: url(/spa/images/F_T.jpg);top:0;bottom:0;">
+            </div>
+            <div class="col-md-5 bg-cover wow animate__pulse" data-wow-duration="1s" data-wow-iteration="infinite"
+                style="position: absolute; background-image: url(/spa/images/F_T2.png);top:0;bottom:0;">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-md-7 my-3">
+                    <h2>多國外師</h2>
+                    <p>接着加入時間，很難是因為始終革命夫妻圖書博士奧客突出手續，藍色引發相信死亡基金浪費長時間教育倒是反應快捷性別任何人進度，反對寵物創業她的你在運用臺灣民眾審批果然主機實施變化東西，看不到，深刻目前，站。
+                    </p>
+                    <a href="#" class="btn btn-outline-info">查看更多</a>
+                    <div class="row mt-3">
+                        <div class="col-6">
+                            <h2>專業教學認證</h2>
+                            <p>她是相關買賣宜蘭再次給予，記住也想做到藝術來源發佈日期這場，當地電信今後也許今後大型定義人間視頻天記住也想做到藝術來源發佈日期這場，當地電信今後也許今後大型定義人間視頻天。
+                            </p>
+                        </div>
+                        <div class="col-6">
+                            <h2>活潑教學風格</h2>
+                            <p>她是相關買賣宜蘭再次給予，記住也想做到藝術來源發佈日期這場，當地電信今後也許今後大型定義人間視頻天記住也想做到藝術來源發佈日期這場，當地電信今後也許今後大型定義人間視頻天。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="display-4 font-weight-bold text-center">多元語言課程選擇</div>
+            <div class="row">
+                <div class="col-6 mt-3">
+                    <div class="d-flex"> 
+                        <div class="wow animate__pulse " data-wow-duration="0.5s" data-wow-iteration="infinite">
+                            <img src="/spa/images/english.png" width="90%" alt="">
+                        </div>
+                        <div>
+                            <h1>English</h1>
+                            <p>發展高興西方成果活力男性，對象傳並且熟悉產權發表審批進口告知和平就會支付孤獨解決方案。</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-6 mt-3">
+                    <div class="d-flex">
+                        <div class="wow animate__pulse " data-wow-duration="0.5s" data-wow-iteration="infinite">
+                            <img src="/spa/images/japan.png" width="90%" alt="">
+                        </div>
+                        <div>
+                            <h1>Japanese</h1>
+                            <p>發展高興西方成果活力男性，對象傳統並不是審批進口告知和平就會支付孤獨解決方案。</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class=" col-6 mt-5 mb-2 mr">
+                    <div class="d-flex">
+                        <div class="wow animate__pulse " data-wow-duration="0.5s" data-wow-iteration="infinite">
+                            <img src="/spa/images/korea.png" width="90%" alt="">
+                        </div>
+                        <div>
+                            <h1>Korean</h1>
+                            <p>發展高興西方成果活力男性，對象傳統並，並且熟悉產權發表審批進口告知和平就會支付孤獨解決方案。</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-6  mt-5 mb-2">
+                    <div class="d-flex">
+                        <div class="wow animate__pulse " data-wow-duration="0.5s" data-wow-iteration="infinite">
+                            <img src="/spa/images/spain.png" width="90%" alt="">
+                        </div>
+                        <div>
+                            <h1>Spanish</h1>
+                            <p>發展高興西方成果活力男性，對象傳統並不發表審批進口告知和平就會支付孤獨解決方案。</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="position: relative;">
+        <div class="container wow animate__tada" data-wow-duration="3s">
+            <div class="row">
+                <div class="col-md-7">
+
+                    <dl class="row">
+                        <dt class="col-sm-3">跨出舒適圈</dt>
+                        <dd class="col-sm-9">改變自己的世界</dd>
+
+                        <dt class="col-sm-3">Term</dt>
+                        <dd class="col-sm-9">
+                            <p>Definition for the term.</p>
+                            <p>And some more placeholder definition text.</p>
+                        </dd>
+
+                        <dt class="col-sm-3">Another term</dt>
+                        <dd class="col-sm-9">This definition is short, so no extra paragraphs or anything.</dd>
+
+                        <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
+                        <dd class="col-sm-9">This can be useful when space is tight. Adds an ellipsis at the end.</dd>
+
+                        <dt class="col-sm-3">Nesting</dt>
+                        <dd class="col-sm-9">
+                            <dl class="row">
+                                <dt class="col-sm-4">Nested definition list</dt>
+                                <dd class="col-sm-8">I heard you like definition lists. Let me put a definition list
+                                    inside your definition list.</dd>
+                            </dl>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-md-5 bg-cover"
+                style="position: absolute; background-image: url(/spa/images/jump.avif);top:0;bottom:0;">
+            </div> 
+            <div class="col-md-5 bg-cover wow animate__slideInDown" data-wow-duration="2s" data-wow-iteration="infinite"
+            style="position: absolute; background-image: url(/spa/images/jump2.png);top:0;bottom:0;">
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58266.54991562006!2d120.71079875089234!3d24.113471532929566!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693d9cc02858c3%3A0x317a8c5860c7e433!2z5buj5LiJU09HTw!5e0!3m2!1szh-TW!2stw!4v1662000084008!5m2!1szh-TW!2stw"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="username01">姓名</label>
+                        <input type="text" id="username01" name="username01" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="tel">電話</label>
+                        <input type="tel" id="tel" name="tel" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="num">人數</label>
+                        <input type="number" id="num" name="num" min="0" class="form-control">
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                            value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                            加購 點讀筆
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                            value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                            加購 教學DVD
+                        </label>
+                    </div>
+                    <div class="text-right">
+                        <a href="#" class="btn btn-secondary">取消</a>
+                        <a href="#" class="btn btn-primary">確認</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section>
+        <div class="row">
+            <div class="col-md-6 bg-cover pl-5 py-5" style=" background-image: url(/spa/images/landscape-01.avif);">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="text p-3">
+                            <small class="text-warning font-weight-bold">加入我們</small>
+                            <h1 class="text-white">誠徵外師</h1>
+                            <p class="text-white">
+                                無限當中不大不可完美，日月潭電視普通一個月進攻物理中間相當，人力決策版權輕輕，斗內見到，發表必要始終兩次便宜深入回應看見我想一個你會收益比賽，隱藏版生命產業一。</p>
+                            <a href="#" class="btn btn-outline-danger">加入我們</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 bg-cover pl-5 py-5" style=" background-image: url(/spa/images/cat3.avif);">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="text p-3">
+                            <small class="text-warning font-weight-bold">加入我們</small>
+                            <h1 class="text-white">誠徵課程諮詢師</h1>
+                            <p class="text-white">
+                                無限當中不大不可完美，日月潭電視普通一個月進攻物理中間相當，人力決策版權輕輕，斗內見到，發表必要始終兩次便宜深入回應看見我想一個你會收益比賽，隱藏版生命產業一。</p>
+                            <a href="#" class="btn btn-outline-danger">加入我們</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link disabled">@CopyRight 2022</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Facebook</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Twitter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        $(function () {
+            $("#login_btn").bind("click", function () {
+                console.log($("#username").val());
+                console.log($("#password").val());
+            });
+
+            wow = new WOW(
+                {
+                    boxClass: 'wow',      // default
+                    animateClass: 'animated', // default
+                    offset: 0,          // default
+                    mobile: true,       // default
+                    live: true        // default
+                }
+            )
+            wow.init();
+
+        });
+    </script>
+</body>
+
+</html>
